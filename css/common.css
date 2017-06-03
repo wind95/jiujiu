@@ -1,0 +1,82 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.main_clr{
+	background-color: #FFFFF0;
+	padding-top: 55px;
+}
+.widths{
+	width: 1024px;
+	margin: 0 auto;
+}
+/*导航标签*/
+nav{
+	position: fixed;
+	left: 0;
+	top: 0;
+	right: 0;
+	background-color: #a4c2f4;
+	z-index: 10000;
+}
+.nav{
+	position: relative;
+	overflow: hidden;
+}
+.nav .nav_ul{
+	float: left;
+	list-style: none;
+}
+.nav .nav_ul li{
+	float: left;
+	text-align: center;
+}
+.nav .nav_ul li a{
+	display: inline-block;
+	height: 55px;
+	width: 92px;
+	color: #F8F1F1;
+	font-weight: 600;
+	line-height: 55px;
+	text-decoration: none;
+}
+a:hover{
+	background-color: #81B0E4;
+}
+/*导航背景图*/
+.nav .bg_img{
+	position: relative;
+	float: left;
+	background-image: url("../image/bg.png");
+	background-repeat: no-repeat;
+	background-position: -4px -7px;
+	background-size: 60px 60px;
+	cursor: pointer;
+}
+.bg_txt{
+	display: inline-block;
+	height: 55px;
+	width: 55px;
+	color: #674ea7;
+	line-height: 97px;
+	font-size: 12px;
+	text-align: center;
+}
+/*导航登录*/
+.nav .nav_login{
+	position: relative;
+	float: right;
+}
+.nav_login span{
+	display: inline-block;
+	text-align: center;
+}
+.nav_login span a{
+	display: inline-block;
+	width: 65px;
+	height: 55px; 
+	line-height: 55px;
+	color: #F8F1F1;
+	font-weight: 600;
+	text-decoration: none;
+}
