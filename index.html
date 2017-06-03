@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>刘孝文的官方网站</title>
+	<link rel="icon" href="./image/wind32.ico">
+	<link rel="stylesheet" type="text/css" href="css/common.css">
+	<style type="text/css">
+		header{
+			height: 580px;
+			width: 100%;
+			position: relative;
+			background: url("image/S5.jpg");
+			background-size: 100% 100%;
+			overflow-x: hidden;
+			overflow-y: scroll;
+		}
+		.info_content{
+			margin-top: 80px;
+			margin-left: 145px;
+			overflow: hidden;
+		}
+		.info_content table{
+			float: left;
+			color: #f9f9b3;
+			font-size: 19px;
+			font-weight: bold;
+			border-spacing: 20px;
+			padding-top: 10px;
+			box-shadow: 3px 3px 4px #000;
+			border: 1px solid rgba(146,76,76,0.68);
+			opacity: 1;
+		}
+		.photo{
+			float: left;
+			margin-left: 90px;
+			overflow: hidden;
+			perspective-origin: top;
+			/*perspective: 400px;*/
+		}
+		.photo img{
+			height: 340px;
+			width: 217px;
+			box-shadow: 3px 3px 4px #000;
+			transform: rotateX(-33deg);
+		}
+		a{
+			text-decoration: none;
+			color: inherit;
+		}
+		.My_img{
+			position: absolute;
+			right: -70px;
+			bottom: 0px;
+			height: 300px;
+			width: 300px;
+			margin-right: 50px;
+		}
+		.My_img img{
+			height: 300px;
+			width: 400px;
+			overflow: hidden;
+			transform: rotate(130deg) translate(70px,-4px);
+		}
+	</style>
+</head>
+<body class="main_clr">
+	<nav>
+		<div class="nav widths">
+			<div class="bg_img">
+				<span class="bg_txt">wind95</span>
+			</div>
+			<ul class="nav_ul">
+				<li><a href="Information.html">Information</a></li>
+				<li><a href="Habits.html">Hobbies</a></li>
+				<li><a href="Awards.html">Awards</a></li>
+				<li><a href="Eles.html">Experience</a></li>
+			</ul>
+			<div class="nav_login">
+				<span><a href="#">登录</a></span>
+			</div>
+		</div>
+	</nav>
+	<header>
+		<div class="info_content">
+			<table border="1">
+				<tr>
+					<td>姓名：</td>
+					<td>刘孝文</td>
+					<td>年龄：</td>
+					<td>21</td>
+				</tr>
+				<tr>
+					<td>学校：</td>
+					<td colspan="2">南华大学船山学院</td>
+				</tr>
+				<tr>
+					<td>学历：</td>
+					<td>本科-软件工程</td>
+				</tr>
+				<tr>
+					<td>博客：</td>
+					<td><a href="http://blog.csdn.net/wind14" target="_blank" title="点我啦！">http://blog.csdn.net/wind14</a></td>
+				</tr>
+				<tr>
+					<td>Tel：</td>
+					<td>15673430494</td>
+				</tr>
+				<tr>
+					<td>E-mail：</td>
+					<td>wind95@yeah.net</td>
+				</tr>
+			</table>
+			<div class="photo">
+				<img src="image/lxw.jpg" draggable="false">
+			</div>
+		</div>
+		<div class="My_img">
+			<img src="image/book7.png" draggable="false">
+		</div>		
+	</header>
+</body>
+</html>
